@@ -54,7 +54,7 @@ $rows = $koneksi->execute_query($sql)->fetch_all(MYSQLI_ASSOC);
                 <td> <?= $row['Nama'] ?> </td>
                 <td> <?= $row['umur'] ?></td>
                 <td> <?= $row['bulan'] ?></td>
-                <td> <a href="checkup-edit.php?id=<?= $row['id'] ?>"> edit </a> <a href="checkup-hapus.php?id=<?= $row['id'] ?>"> hapus </a>  </td>
+                <td> <a href="edit.php?id=<?= $row['id'] ?>"> edit </a> <a href="hapus.php?id=<?= $row['id'] ?>" onclick=" return confirm(' hapus data checkup? ') "> hapus </a>  </td>
             </tr>
 
 

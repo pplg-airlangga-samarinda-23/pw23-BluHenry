@@ -1,0 +1,22 @@
+body {
+    font-style: italic;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 3vh 0;
+}
+
+.name {
+    margin-bottom: 5vh;
+}
+
+.password {
+    margin-bottom: 1vh;
+}
+
